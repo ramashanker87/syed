@@ -79,8 +79,8 @@ sudo apt install git -y
 ## Step 3: Configure Git
 
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email "your-email@example.com"
+git config --global user.name "Syed"
+git config --global user.email "syednadeem.ece@gmail.com"
 ```
 
 Verify configuration:
@@ -162,14 +162,14 @@ Do not initialize with README.
 
 ## Step 1.2: Create repository in github
 
-    devops-git-lab-name
+    devops-git-lab-syed
 
 ## Step 2: Connect Local Repo to GitHub
 
 ```bash
-git remote add origin https://github.com/USERNAME/devops-git-lab.git
+git remote add origin https://github.com/ramashanker87/syed.git
 
-git remote set-url origin https://YOUR_USERNAME:YOUR_ACCESS_TOKEN@github.com/USERNAME/REPO.git
+git remote set-url origin https://YOUR_USERNAME:YOUR_ACCESS_TOKEN@github.com/ramashanker87/syed.git
 ```
     Example
     https://github.com/ramashanker87
