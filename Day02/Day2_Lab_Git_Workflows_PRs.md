@@ -34,7 +34,7 @@ By the end of this lab, learners will be able to:
 ## Clone Existing Repository
 
 ```bash
-git clone https://github.com/USERNAME/devops-git-lab.git
+git clone https://github.com/ramashanker87/syed.git
 ```
 
 Navigate to repository:
