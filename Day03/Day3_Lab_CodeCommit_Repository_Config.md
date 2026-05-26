@@ -153,7 +153,7 @@ Create Repository
 
 ```bash
 aws codecommit create-repository \
---repository-name DevOpsRepo \
+--repository-name DevOpsRepo-Syed \
 --repository-description "DevOps Training Repository" --profile devops
 ```
 
@@ -174,7 +174,7 @@ https://git-codecommit.us-east-1.amazonaws.com/v1/repos/DevOpsRepo
 ## Clone Repository
 
 ```bash
-git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/DevOpsRepo
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/DevOpsRepo-Syed
 ```
 
 ---
