@@ -4,7 +4,7 @@ Description: Simple EC2 Deployment using CloudFormation
 
 Resources:
 
-  RamaSecurityGroup:
+  SyedSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: Allow SSH and HTTP
@@ -27,11 +27,11 @@ Resources:
     Properties:
       ImageId: ami-00e801948462f718a
       InstanceType: t2.micro
-      KeyName: rama-ec2
+      KeyName: syed-ec2
 
       SecurityGroups:
-        - !Ref RamaSecurityGroup
+        - !Ref SyedSecurityGroup
 
       Tags:
         - Key: Name
-          Value: RamaEC2Instance-Day09
+          Value: SyedEC2Instance-Day09

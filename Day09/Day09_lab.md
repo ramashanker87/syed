@@ -152,8 +152,8 @@ Create Stack
 ## Command to create cloudformation
 
     aws cloudformation create-stack \
-    --stack-name rama-ec2-stack \
-    --template-body file://rama-ec2-template.yaml \
+    --stack-name syed-ec2-stack \
+    --template-body file://syed-ec2-template.yaml \
     --capabilities CAPABILITY_NAMED_IAM \
     --profile devops
 
