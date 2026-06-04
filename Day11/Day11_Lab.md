@@ -1,6 +1,6 @@
 # Day 11 Lab Guide — AWS Infrastructure Provisioning with Terraform
 ## Module 2 – Infrastructure as Code (IaC)
-### Date: 20-May-2026 (Monday)
+### Date: 1-june-2026 (Monday)
 
 ---
 
@@ -58,7 +58,7 @@ rama-day11-terraform-demo-bucket
 with a unique name, for example:
 
 ```text
-yourname-day11-terraform-demo-bucket-20260520
+syed-day11-terraform-demo-bucket-20260520
 ```
 
 ## AWS Region
@@ -193,6 +193,7 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
+  profile = "devops"
 }
 ```
 
@@ -362,7 +363,7 @@ yes
 Use AWS CLI:
 
 ```bash
-aws s3 ls
+aws s3 ls --profile devops
 ```
 
 Check bucket versioning:
