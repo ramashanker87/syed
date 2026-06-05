@@ -1,0 +1,5 @@
+aws_region        = "us-east-1"
+environment       = "dev"
+project_name      = "day12-terraform"
+state_bucket_name = "syed-day12-tf-state-20260602"
+lock_table_name   = "syed-day12-terraform-locks"
