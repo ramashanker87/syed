@@ -595,10 +595,10 @@ Add this content and replace bucket/table names:
 ```hcl
 terraform {
   backend "s3" {
-    bucket         = "yourname-day12-tf-state-20260602"
+    bucket         = "syed-day12-tf-state-20260602"
     key            = "day12/dev/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "day12-terraform-locks"
+    dynamodb_table = "syed-day12-terraform-locks"
     encrypt        = true
   }
 }
